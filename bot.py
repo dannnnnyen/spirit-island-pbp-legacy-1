@@ -107,9 +107,9 @@ async def updatethings(after,topic):
         LOG.msg(f'found guid: {guid}, linking to channel: {after.id}')
         await after.send(f'Now relaying game log for {guid} to this channel. Good luck!')
         #r = requests.post(f'http://localhost:8000/api/game/{guid}/link/{after.id}')
-        r = requests.post(f'http://34.31.6.112:8000/api/game/{guid}/link/{after.id}')
+        r = requests.post(f'http://34.173.2.251:8000/api/game/{guid}/link/{after.id}')
         LOG.msg(r)
-        r = requests.post(f'http://34.31.6.112:8080/api/game/{guid}/link/{after.id}')
+        r = requests.post(f'http://34.173.2.251:8080/api/game/{guid}/link/{after.id}')
         LOG.msg(r)
 
 @client.event
