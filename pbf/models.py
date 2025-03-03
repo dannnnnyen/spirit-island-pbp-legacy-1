@@ -855,13 +855,40 @@ spirit_thresholds = {
         }
 
 card_thresholds = {
+# Unique
+"Blinding Glare": [ (40, 72, '5S') ],
+"Blooming of the Rocks and Trees": [ (40, 80, '3P') ],
+"Flash-Fires": [ (40, 79, '2A') ],
+"Scatter to the Winds": [ (40, 76, '3A') ],
+"Shape the Self Anew": [ (40, 75, '4M') ],
+"Share Secrets of Survival": [ (40, 79, '3A') ],
+"Swallowed by the Endless Dark": [ (35, 80, '3M3A') ],
+
+# Minor
+"Absorb Corruption": [ (42, 78, '2P') ],
+"Call of the Dahan Ways": [ (40, 76, '2M') ],
+"Carapaced Land": [ (40, 78, '2E') ],
+"Domesticated Animals Go Berserk": [ (40, 77, '3M') ],
+"Drought": [ (40, 79, '3S') ],
+"Favor Of The Sun And Star-Lit Dark": [ (40, 78, '2S') ],
+"Inflame the Fires of Life": [ (40, 79, '3N') ],
+"Nature's Resilience": [ (40, 78, '2W') ],
+"Renewing Rain": [ (40, 78, '3P') ],
+"Sap the Strength of Multitudes": [ (40, 67, '2W'), (40, 79, '1A') ],
+"Savage Mawbeasts": [ (40, 79, '3N') ],
+"Scour the Land": [ (40, 78, '3A') ],
+"Steam Vents": [ (41, 79, '3E') ],
+"Strong And Constant Currents": [ (40, 80, '2W') ],
 "Unquenchable Flames": [ (35, 78, '2F') ],
+"Visions of Fiery Doom": [ (40, 78, '2F') ],
+
+# Major
 "Accelerated Rot": [ (30, 78, '3S2W3P') ],
 "Angry Bears": [ (35, 76, '2F3N') ],
 "Bargains of Power and Protection": [ (30, 82, '3S2W2E') ],
 "Blazing Renewal": [ (30, 80, '3F3E2P') ],
 "Bloodwrack Plague": [ (35, 74, '2E4N') ],
-"Cast down into the Briny Deep": [ (25, 70, '2S2M4W4E') ],
+"Cast down into the Briny Deep": [ (25, 70, '3S3M5W5E') ],
 "Cleansing Floods": [ (38, 80, '4W') ],
 "Death Falls Gently from Open Blossoms": [ (35, 73, '3A3P') ],
 "Dissolve the Bonds of Kinship": [ (30, 76, '2F2W3N') ],
@@ -871,7 +898,7 @@ card_thresholds = {
 "Flow like Water, Reach like Air": [ (36, 76, '2A2W') ],
 "Focus the Land's Anguish": [ (38, 80, '3S') ],
 "Forests of Living Obsidian": [ (30, 80, '2S3F3E') ],
-"Grant Hatred a Ravenous Form": [ (36, 80, '4M2F') ],
+"Grant Hatred a Ravenous Form": [ (36, 80, '3M2F') ],
 "Indomitable Claim": [ (34, 72, '2S3E') ],
 "Infestation of Venomous Spiders": [ (30, 76, '2A2E3N') ],
 "Infinite Vitality": [ (40, 75, '4E') ],
@@ -885,7 +912,7 @@ card_thresholds = {
 "Pent-Up Calamity": [ (30, 78, '2M3F') ],
 "Pillar of Living Flame": [ (38, 80, '4F') ],
 "Poisoned Land": [ (30, 76, '3E2P2N') ],
-"Powerstorm": [ (30, 76, '2S2F3A') ],
+"Powerstorm": [ (16, 76, '2S2F3A'), (50, 76, '3S3F4A2W') ],
 "Pyroclastic Flow": [ (30, 79, '2F3A2E') ],
 'Savage Transformation': [ (38, 76, '2M3N') ],
 "Sea Monsters": [ (30, 80, '3W3N') ],
@@ -924,7 +951,7 @@ card_thresholds = {
 
 "Bargain of Coursing Paths": [ (30, 80, '3A2W2E') ],
 "Bombard with Boulders and Stinging Seeds": [ (30, 75, '2A2E3P') ],
-"Exaltation of the Incandescent Sky": [ (25, 78, '3S3F4A2W') ],
+"Exaltation of the Incandescent Sky": [ (16, 76, '2S2F3A'), (50, 76, '3S3F4A2W') ],
 "Flocking Red-Talons": [ (30, 75, '2A2P3N') ],
 "Fragments of Yesteryear": [ (30, 68, '3S'), (30, 78, '3M') ],
 "Inspire the Release of Stolen Lands": [ (30, 70, '3S3W2N') ],
